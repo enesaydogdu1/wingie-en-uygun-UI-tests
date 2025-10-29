@@ -11,7 +11,7 @@ Parametrelendirme seçeneği ise config.properties içerisinde yer alıyor. Kalk
 
 ## 🧩 Proje Mimarisi  
 
-Proje, Page Object Model (POM) tasarım desenine uygun ve katmanlı bir yapı üzerine kurulmuştur.
+Proje, Page Object Model (POM) tasarım desenine uygun ve katmanlı bir yapı üzerine kurulmuştur.  
 Ana klasör yapısı şu şekilde:
 
 📂 **src**  
