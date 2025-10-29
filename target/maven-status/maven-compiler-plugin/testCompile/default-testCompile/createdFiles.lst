@@ -1,0 +1,5 @@
+tests\TC3_CriticalPathTest.class
+tests\TC1_FlightSearchTest.class
+tests\TC2_PriceSortByAirlineTest.class
+utils\AssertionsHelper.class
+tests\TC4_FlightDataExtractionAndAnalysisTest.class

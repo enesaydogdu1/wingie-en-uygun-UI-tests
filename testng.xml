@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EnUygun UI Suite" verbose="1" parallel="false">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <parameter name="baseUrl" value="https://www.enuygun.com"/>
+    <parameter name="fromCity" value="İstanbul"/>
+    <parameter name="toCity" value="Ankara"/>
+    <parameter name="departDate" value="2025-11-20"/>
+    <parameter name="returnDate" value="2025-11-27"/>
+
+    <test name="UI Tests">
+        <classes>
+            <class name="tests.TC1_FlightSearchTest"/>
+            <class name="tests.TC2_PriceSortByAirlineTest"/>
+            <class name="tests.TC3_CriticalPathTest"/>
+            <class name="tests.TC4_FlightDataExtractionAndAnalysisTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+[2025-10-29 22:43:01] [INFO] [main] [] TC4_FlightDataExtractionAndAnalysisTest - Driver started. Browser=chrome
+[2025-10-29 22:43:26] [INFO] [main] [] HomePage - Cookies accepted.
+[2025-10-29 22:43:29] [INFO] [main] [] HomePage - Hotels option turned off (it was previously selected).
+[2025-10-29 22:43:30] [INFO] [main] [] HomePage - Departure date selected: 2025-11-22
+[2025-10-29 22:43:30] [INFO] [main] [] HomePage - Return date selected: 2025-11-29
+[2025-10-29 22:43:54] [INFO] [main] [] ResultsPage - Flight results loaded. Total flight count: 63
+[2025-10-29 22:44:02] [INFO] [main] [] TC4_FlightDataExtractionAndAnalysisTest - CSV written: C:\Users\feram\Desktop\enesciğin\enuygun-ui-tests\target\exports\flights_Istanbul_Lefkosa.csv
+[2025-10-29 22:44:02] [INFO] [main] [] TC4_FlightDataExtractionAndAnalysisTest - Analysis completed. Outputs under: C:\Users\feram\Desktop\enesciğin\enuygun-ui-tests\target\analysis\Istanbul_Lefkosa_2025-10-29
+[2025-10-29 22:44:04] [INFO] [main] [] TC4_FlightDataExtractionAndAnalysisTest - Driver closed.

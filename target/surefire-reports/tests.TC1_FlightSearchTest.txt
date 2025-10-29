@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tests.TC1_FlightSearchTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.31 s -- in tests.TC1_FlightSearchTest
