@@ -187,8 +187,7 @@ Proje **Chrome** tarayıcısında tamamen stabil çalışmaktadır. Ancak **Fire
 
 ---
 
-## 💬 Yazar Notu
+## 💬 Not
 
 Son olarak incelemeniz için teşekkür ederim, ismim **Enes**. Mevcut GitHub hesabıma 2FA sebebiyle erişemediğim için yeni bir GitHub hesabı oluşturdum, önceki çalışmalarıma eski hesabım üzerinden ulaşabilirsiniz:
 [https://github.com/swenes](https://github.com/swenes)
-
