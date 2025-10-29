@@ -5,13 +5,13 @@
 Proje, **Java + Selenium + TestNG + Maven** altyapısı üzerinde çalışıyor.  
 Test sonuçları **Allure Reports** ile raporlanıyor, loglama işlemleri ise **Log4j2** aracılığıyla gerçekleştiriliyor.  
 
-Parametrelendirme seçeneği ise config.properties içerisinde yer alıyor. Kalkış saatleri, varış şehri, dönüş şehri ve browser gibi parametreleri config.parameters üzerinden yönetebilirsiniz. 
+Parametrelendirme seçeneği ise config.properties içerisinde yer alıyor. Kalkış saatleri, varış şehri, dönüş şehri ve browser gibi parametreleri config.properties üzerinden yönetebilirsiniz. 
 
 ---
 
 ## 🧩 Proje Mimarisi  
 
-Projeyi POM Design'a uygun şekilde ilerletmeyi hedefledim. 
+Proje, Page Object Model (POM) tasarım desenine uygun ve katmanlı bir yapı üzerine kurulmuştur.
 Ana klasör yapısı şu şekilde:
 
 📂 **src**  
@@ -146,7 +146,7 @@ Testler, sadece doğrulama yapmakla kalmayıp, elde edilen uçuş verilerini kul
 * **Havayolu Bazlı Min/Ort/Max Fiyat Karşılaştırması**
     <img width="1100" height="650" alt="min_max_avg_by_airline" src="https://github.com/user-attachments/assets/705cff82-1364-4e90-925f-f6ca93bcb816" />
 
-### 💰 En Uygun Maliyet Analizi
+### 💰 Maliyet Skorlama Algoritması ve Analizi
 
 Uçuş için en uygun maliyet hesaplama algoritması geliştirilmiştir. Bu algoritma, fiyat, süre ve bağlantı sayısını dikkate alarak bir skor üretir ve en düşük skora sahip uçuş, en uygun maliyetli olarak belirlenir.
 
