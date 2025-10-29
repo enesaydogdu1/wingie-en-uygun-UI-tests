@@ -22,7 +22,7 @@ public class TC4_FlightDataExtractionAndAnalysisTest extends BaseTest {
     @Severity(SeverityLevel.NORMAL)
     @Story("Extract, persist, and analyze flight search results")
     @Description("""
-        Case 4: Analysis and Categorization
+        Analysis and Categorization
         Develop a test for extracting and analyzing data from search results:
         • Perform a flight search on Enuygun.com for a parameterized route (from → to)
         • Extract the following data for all flights and save to CSV:
@@ -35,7 +35,7 @@ public class TC4_FlightDataExtractionAndAnalysisTest extends BaseTest {
         • Calculate and display min/max/average prices by airline (chart)
         • Visualize price distribution across time slots (heatmap)
         • Identify most cost-effective flights via a scoring algorithm
-        The test must be repeatable for different dates/routes to enable comparisons.
+        • The test must be repeatable for different dates/routes to enable comparisons.
         """)
     @Test(description = "Extract all flights to CSV and produce charts/analytics for further insights")
     public void extractToCsvAndAnalyze() throws Exception {
